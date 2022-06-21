@@ -1,12 +1,7 @@
 import React from "react";
-import { RecoilRoot } from "recoil";
 
 function HomePage(): JSX.Element {
-  return (
-    <RecoilRoot>
-      <div>Welcome to Next.js!!!!!</div>;
-    </RecoilRoot>
-  );
+  return <>Welcome to Next.js!!!!!</>;
 }
 
 export default HomePage;
